@@ -1,69 +1,13 @@
 ﻿@page "/"
 
-@inject IJSRuntime JSRuntime
 
-<div class="canvas_container">
-    <div class="step-intro" style="padding: 0 10px 0 10px">
-        <h1>Webcam Passport Photo</h1>
-        <p>Take your own passport photo in the browser.</p>
-        <img src="./passport-mask.png"
-            style="float:right;border:5px solid white;box-shadow:0px 0px 3px rgba(0,0,0,0.3);" width="100"
-            height="100" />
-        <ul>
-            <li>No uploads</li>
-            <li>No downloads</li>
-            <li>No installs</li>
-            <li>No accounts</li>
-            <li>No tracking</li>
-        </ul>
-        <p>
-            This app respects your privacy. Webcam image is processed and saved locally.
-        </p>
-    </div>
-    <canvas class="output_canvas step-capture"></canvas>
-    <img class="preview_image step-download" />
-</div>
-<div class="controls">
-    <button class="start step-intro" title="Start" @onclick="() => StartCamera()">Start</button>
-    <button class="mirror step-capture" title="Mirror" @onclick="() => ToggleMirror()">Mirror</button>
-    <button class="capture step-capture" title="Capture" @onclick="() => CapturePhoto()">Capture</button>
-    <button class="flip step-capture" title="Flip" @onclick="() => FlipCamera()">Flip</button>
-    <button class="meta_info step-download" style="visibility: hidden;"></button>
-    <button class="retake step-download" title="Retake" @onclick="() => RetakePhoto()">Retake</button>
-    <button class="download step-download" title="Download" @onclick="() => DownloadPhoto()">Download</button>
-</div>
-<script src="js/app.js"></script>
-<script src="js/camera_utils.js"></script>
-<script src="js/selfie_segmentation.js"></script>
-<style src="css/webcam.css"></style>
+@inject NavigationManager NavigationManager
+
+<button @onclick="NavigateToHtmlPage">Go to Webcam Page</button>
+
 @code {
-    private async Task StartCamera()
+    void NavigateToHtmlPage()
     {
-        await JSRuntime.InvokeVoidAsync("startCamera");
-    }
-
-    private async Task ToggleMirror()
-    {
-        await JSRuntime.InvokeVoidAsync("toggleMirror");
-    }
-
-    private async Task FlipCamera()
-    {
-        await JSRuntime.InvokeVoidAsync("flipCamera");
-    }
-
-    private async Task CapturePhoto()
-    {
-        await JSRuntime.InvokeVoidAsync("capturePhoto");
-    }
-
-    private async Task RetakePhoto()
-    {
-        await JSRuntime.InvokeVoidAsync("retakePhoto");
-    }
-
-    private async Task DownloadPhoto()
-    {
-        await JSRuntime.InvokeVoidAsync("downloadPhoto");
+        NavigationManager.NavigateTo("webcam.html");
     }
 }
