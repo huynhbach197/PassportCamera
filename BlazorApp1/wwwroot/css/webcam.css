@@ -1,0 +1,74 @@
+﻿html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.canvas_container {
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.preview_image {
+    width: auto;
+    height: 75%;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.3);
+}
+
+.controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+}
+
+    .controls button {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+.start {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/check_black_24dp.png);
+}
+
+.mirror {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/swap_horiz_black_24dp.png);
+}
+
+.capture {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/photo_camera_black_24dp.png);
+}
+
+.flip {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/flip_camera_ios_black_24dp.png);
+}
+
+.retake {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/arrow_back_black_24dp.png);
+}
+
+.download {
+    background-image: url(https://www.gstatic.com/images/icons/material/system_gm/2x/file_download_black_24dp.png);
+}
+
+.step-capture,
+.step-download {
+    display: none;
+}
