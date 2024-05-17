@@ -73,6 +73,14 @@
       "PackagePath": "staticwebassets\\js\\selfie_segmentation.js"
     },
     {
+      "Id": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\passport-mask.png",
+      "PackagePath": "staticwebassets\\passport-mask.png"
+    },
+    {
+      "Id": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\webcam.html",
+      "PackagePath": "staticwebassets\\webcam.html"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorApp1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

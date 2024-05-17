@@ -29,3 +29,4 @@ C:\work\01_NET_Projects\01_Projects\BlazorApp1\BlazorApp1\obj\Debug\net7.0\refin
 C:\work\01_NET_Projects\01_Projects\BlazorApp1\BlazorApp1\obj\Debug\net7.0\BlazorApp1.pdb
 C:\work\01_NET_Projects\01_Projects\BlazorApp1\BlazorApp1\obj\Debug\net7.0\BlazorApp1.genruntimeconfig.cache
 C:\work\01_NET_Projects\01_Projects\BlazorApp1\BlazorApp1\obj\Debug\net7.0\ref\BlazorApp1.dll
+C:\work\01_NET_Projects\01_Projects\BlazorApp1\BlazorApp1\obj\Debug\net7.0\BlazorApp1.sourcelink.json

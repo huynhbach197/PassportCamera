@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|c:\\work\\01_net_projects\\01_projects\\blazorapp1\\blazorapp1\\wwwroot\\webcam.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\webcam.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\blazorapp1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|c:\\work\\01_net_projects\\01_projects\\blazorapp1\\blazorapp1\\wwwroot\\js\\selfie_segmentation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|c:\\work\\01_net_projects\\01_projects\\blazorapp1\\blazorapp1\\wwwroot\\webcam.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\webcam.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\blazorapp1\\wwwroot\\js\\selfie_segmentation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{29790773-24D6-49A5-8025-B6E498894A7D}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\wwwroot\\js\\selfie_segmentation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
@@ -34,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "webcam.html",
               "DocumentMoniker": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\webcam.html",
               "RelativeDocumentMoniker": "BlazorApp1\\wwwroot\\webcam.html",
               "ToolTip": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\webcam.html",
               "RelativeToolTip": "BlazorApp1\\wwwroot\\webcam.html",
-              "ViewState": "AQIAABgBAAAAAAAAAAAqwEABAAAHAAAA",
+              "ViewState": "AQIAABoBAAAAAAAAAAAUwC4BAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-05-17T15:01:59.157Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "BlazorApp1\\wwwroot\\js\\selfie_segmentation.js",
               "ViewState": "AQIAAC4AAAAAAAAAAAAuwDQAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-05-17T14:17:32.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-17T14:17:32.161Z"
             },
             {
               "$type": "Document",
@@ -100,13 +99,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Pages\\Index.razor",
               "ToolTip": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\Pages\\Index.razor",
               "RelativeToolTip": "BlazorApp1\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwA0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-17T08:17:21.902Z",
               "EditorCaption": ""

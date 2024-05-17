@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AqByGC4Kwkbludtjn3m+l5S+GjWdI1c8xu/z4DShLgs=",
+  "Hash": "v5HMTastRnGOgzePbfFtZ9F+ifjDofafA8uPtMStzeM=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -376,6 +376,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\selfie_segmentation.js"
+    },
+    {
+      "Identity": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\passport-mask.png",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "BasePath": "_content/BlazorApp1",
+      "RelativePath": "passport-mask.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\passport-mask.png"
+    },
+    {
+      "Identity": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\webcam.html",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\work\\01_NET_Projects\\01_Projects\\BlazorApp1\\BlazorApp1\\wwwroot\\",
+      "BasePath": "_content/BlazorApp1",
+      "RelativePath": "webcam.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\webcam.html"
     }
   ]
 }
